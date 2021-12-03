@@ -17,13 +17,14 @@ header {
     color: #ffffff;
 }
 
-/* header css added for elements rather than classes used originally */
+/* h1 and header element css added for elements rather than classes used originally */
+
 h1 {
     font-size: 48px;
     display: inline-block
 }
 
-/* able to remove header class from this as added class to figure tag */
+/* removed header class from this as added class to figure tag */
 .seo {
     color: #d9dcd6;
 }
@@ -37,13 +38,11 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
+/* consolidated nav css */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
 a {
@@ -71,20 +70,8 @@ p {
     font-size: 16px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* consolidated CSS in main section to just use h2 element selector for headings */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -94,30 +81,13 @@ p {
     margin-right: 25px;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.social-media-marketing {
+/* consolidated css so the three sections in main tag and their image under one class rather than 3 separate */
+.main {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -126,13 +96,8 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing img {
+.main img {
     max-height: 200px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .benefits {
