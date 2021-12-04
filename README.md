@@ -15,4 +15,10 @@ The following screenshot indicates the structure of the code prior to refactorin
 
 The next screenshot shows the code after semantic html tags have been added to the text to give it logical structure and meet accessibility standards.
 
-![Screenshot of refactored code](.assets/images/README2.png)
+![Screenshot of refactored code](./assets/images/README2.png)
+
+Here is a link to the [deployed project](https://danlawrence91.github.io/first-homework/)
+
+## Credits
+
+Original html and css code supplied by course tutors, this was then amended rather than new code being added.
