@@ -1,4 +1,4 @@
-/* Order CSS to follow semantic structure of html code, showing how each tag is styled as you move down the page */ 
+/* Order of CSS to follow structure of html code, showing how html is styled as you move down the page */ 
 
 * {
     box-sizing: border-box;
