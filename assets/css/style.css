@@ -76,7 +76,7 @@ h2 {
 }
 
 /* consolidated css so the three sections in main tag and their image under one class rather than 3 separate */
-.main {
+.feature-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -85,7 +85,7 @@ h2 {
     color: #ffffff;
 }
 
-.main img {
+.feature-section img {
     max-height: 200px;
 }
 
