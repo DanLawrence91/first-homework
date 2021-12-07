@@ -1,4 +1,4 @@
-/* Order of CSS to follow structure of html code, showing how html is styled as you move down the page */ 
+/* Ordered CSS by selector type and then in descending order as you go down the page for each type of selector */ 
 
 * {
     box-sizing: border-box;
@@ -24,11 +24,6 @@ h1 {
     display: inline-block
 }
 
-/* removed header class from this as added class to figure tag */
-.seo {
-    color: #d9dcd6;
-}
-
 /* changed below to nav element as opposed to header div class */
 nav {
     padding-top: 15px;
@@ -37,7 +32,6 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 /* consolidated nav css */
 nav ul li {
     display: inline-block;
@@ -48,6 +42,38 @@ nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* consolidated CSS in main section to just use h2 element selector for headings */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* able to consolidate CSS by just using h3 tag to style aside heading */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+/* footer tag added for semantic html so css changed to match */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* removed header class from this as added class to figure tag */
+.seo {
+    color: #d9dcd6;
 }
 
 .hero {
@@ -63,16 +89,6 @@ a {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-p {
-    font-size: 16px;
-}
-
-/* consolidated CSS in main section to just use h2 element selector for headings */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* consolidated css so the three sections in main tag and their image under one class rather than 3 separate */
@@ -120,22 +136,4 @@ h2 {
 .lead-brand-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-/* able to consolidate CSS by just using h3 tag to style aside heading */
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-h4 {
-    font-size: 20px;
-}
-
-/* footer tag added for semantic html so css changed to match */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
 }
